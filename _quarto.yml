@@ -13,8 +13,12 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+    # https://bootswatch.com/
+      light: lux
+              #sandstone
+      dark: slate
+      #- cosmo
+      #- brand
     css: styles.css
     toc: true
 

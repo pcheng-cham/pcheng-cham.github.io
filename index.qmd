@@ -1,5 +1,22 @@
 ---
-title: "pcheng-cham.github.io"
+title: "P Cheng"
+image: media/myedit4_1_flip.png
+# myedit4_1_flip.png
+# myedit2_1.png
+toc: false
+#turns off table of content to false
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 10-px;
+  
+  links:
+    - icon: github
+      href: http://github.com/pcheng-cham
+      target: blank  # opens in new window
+    - text: Email patrick.cheng@student.chaminade.edu
+      icon: envelope
+      href: mailto:patrick.cheng@student.chaminade.edu
 ---
 
 This is a Quarto website.
@@ -7,5 +24,9 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+# library(usethis)
+```
+
+```{r}
+"1 + 1 = 3"
 ```
