@@ -30,3 +30,33 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 "1 + 1 = 3"
 ```
+
+# "\# " will create [header 1](wikipedia.org)
+
+## "\## " will create header 2
+
+### "\### " will create header 3
+
+" " will create paragraph text.
+
+Unordered list
+
+- bullets
+
+- are
+
+- unordered
+
+- lists
+
+Ordered list
+
+1.  numbered
+
+2.  is
+
+3.  an
+
+4.  ordered
+
+5.  list

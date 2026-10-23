@@ -3,12 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "P Cheng"
+  # title: "P Cheng"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - resume.qmd
+      - icon: github
+        href: http://github.com/
+        target: blank
+      - href: http://google.com/
+        text: link to google
 
 format:
   html:

@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "P Cheng",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n# library(usethis)\n\n\n\"1 + 1 = 3\"\n\n[1] \"1 + 1 = 3\""
+    "text": "This is the resume.\nDownload PDF file."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "P Cheng",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n# library(usethis)\n\"1 + 1 = 3\"\n\n[1] \"1 + 1 = 3\""
+  },
+  {
+    "objectID": "index.html#will-create-header-2",
+    "href": "index.html#will-create-header-2",
+    "title": "P Cheng",
+    "section": "“##” will create header 2",
+    "text": "“##” will create header 2\n\n“###” will create header 3\n” ” will create paragraph text.\nUnordered list\n\nbullets\nare\nunordered\nlists\n\nOrdered list\n\nnumbered\nis\nan\nordered\nlist"
   }
 ]
