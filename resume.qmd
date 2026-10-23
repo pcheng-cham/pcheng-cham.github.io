@@ -1,0 +1,9 @@
+---
+title: "Resume"
+resources:
+  - media/CURRENT_9-21-26_resume_finalized2.pdf
+---
+
+This is the resume.
+
+{{< pdf media/CURRENT_9-21-26_resume_finalized2.pdf width="100%" height=800px >}}
