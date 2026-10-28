@@ -2,8 +2,42 @@
 title: "About"
 ---
 
-About this site
+## [This website is a website exercise for an assignment from the CS201 class.]{.underline}
 
-```{r}
-1 + 1
-```
+To learn more about this assignment, visit <a href="https://abcamp.github.io/assignment.html" id="unique-hover-linkabc" target = "blank">ABCamp's Github</a>.
+
+### [Required Components]{.underline}
+
+1.  The website must be live and functional (the site loads at the URL, navigation works, and nothing is broken)
+
+2.  There must be an **index** page ("**YOU**" are [here](https://pcheng-cham.github.io/))
+
+3.  There must be **three** pages minimum (including index). What the other two pages (<a href="https://pcheng-cham.github.io/about.html" id="unique-hover-linkabc" target = "blank">my 'About' page</a> and <a href="https://pcheng-cham.github.io/resume.html" id="unique-hover-linkabc" target = "blank">my 'Resume' page</a>) include is up to you. All pages must be properly linked in the site navigation **AND** include [*SOME*]{.underline} relevant content (i.e., no empty pages)
+
+4.  There must be at least one media item somewhere (picture, video, embedded pdf, etc.)
+
+5.  There must be at least one customization somewhere (theme/template, colors, TOC, etc.)
+
+6.  Everything should be neat, free of typos, and reflect thought and planning (e.g., no leftover template or placeholder text, page titles match the navigation, etc.)
+
+### [Resources]{.underline}
+
+- [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/) (tutorial by Sam Csik)
+
+  - for personal branding guidance, look at this specific UCSB course material: [“Create your own personal branding guide” under “Pre-class Prep.”](https://ucsb-meds.github.io/EDS-296-DS-portfolios/course-materials/week2-customizing-websites.html#pre-class-prep)
+
+- [Built-in templates](https://quarto.org/docs/websites/website-about.html#templates)
+
+- [Bootswatch themes](https://bootswatch.com/)
+
+- [Bootstrap icons](https://icons.getbootstrap.com/)
+
+- [Quarto Website general documentation](https://quarto.org/docs/websites/)
+
+- [Customizing Quarto Websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) (slides by Sam Csik)
+
+- [Resume Guide](https://ccd.rice.edu/sites/g/files/bxs3401/files/inline-files/FreshmanResumeGuide.pdf) (Rice University)
+
+- [embedpdf](https://github.com/jmgirard/embedpdf)
+
+- Check out what your classmates are doing and ~~steal~~ look at their code!

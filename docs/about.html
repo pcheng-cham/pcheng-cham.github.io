@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -76,12 +41,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ff6db9826b2d993648c24e5ed52e3772.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6d8c6914288cd9e354e7ccf82e9e6038.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-ff6db9826b2d993648c24e5ed52e3772.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ba2b6ff468560d5737a50c03511e74bb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-42812273302007d3b2185330bafced7a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +77,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -256,10 +219,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         changeGiscusTheme();
       }
     };
-    const authorPrefersDark = false;
+    const authorPrefersDark = true;
     const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
@@ -301,13 +262,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="http://github.com/" target="blank"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="http://github.com/pcheng-cham" target="blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="http://google.com/"> 
-<span class="menu-text">link to google</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -321,8 +278,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class." id="toc-this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class." class="nav-link active" data-scroll-target="#this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class."><u>This website is a website exercise for an assignment from the CS201 class.</u></a>
+  <ul class="collapse">
+  <li><a href="#required-components" id="toc-required-components" class="nav-link" data-scroll-target="#required-components"><u>Required Components</u></a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><u>Resources</u></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -347,15 +314,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class." class="level2">
+<h2 class="anchored" data-anchor-id="this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class."><u>This website is a website exercise for an assignment from the CS201 class.</u></h2>
+<p>To learn more about this assignment, visit <a href="https://abcamp.github.io/assignment.html" id="unique-hover-linkabc" target="blank">ABCamp’s Github</a>.</p>
+<section id="required-components" class="level3">
+<h3 class="anchored" data-anchor-id="required-components"><u>Required Components</u></h3>
+<ol type="1">
+<li><p>The website must be live and functional (the site loads at the URL, navigation works, and nothing is broken)</p></li>
+<li><p>There must be an <strong>index</strong> page (“<strong>YOU</strong>” are <a href="https://pcheng-cham.github.io/">here</a>)</p></li>
+<li><p>There must be <strong>three</strong> pages minimum (including index). What the other two pages (<a href="https://pcheng-cham.github.io/about.html" id="unique-hover-linkabc" target="blank">my ‘About’ page</a> and <a href="https://pcheng-cham.github.io/resume.html" id="unique-hover-linkabc" target="blank">my ‘Resume’ page</a>) include is up to you. All pages must be properly linked in the site navigation <strong>AND</strong> include <u><em>SOME</em></u> relevant content (i.e., no empty pages)</p></li>
+<li><p>There must be at least one media item somewhere (picture, video, embedded pdf, etc.)</p></li>
+<li><p>There must be at least one customization somewhere (theme/template, colors, TOC, etc.)</p></li>
+<li><p>Everything should be neat, free of typos, and reflect thought and planning (e.g., no leftover template or placeholder text, page titles match the navigation, etc.)</p></li>
+</ol>
+</section>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources"><u>Resources</u></h3>
+<ul>
+<li><p><a href="https://ucsb-meds.github.io/creating-quarto-websites/">Creating your personal website using Quarto</a> (tutorial by Sam Csik)</p>
+<ul>
+<li>for personal branding guidance, look at this specific UCSB course material: <a href="https://ucsb-meds.github.io/EDS-296-DS-portfolios/course-materials/week2-customizing-websites.html#pre-class-prep">“Create your own personal branding guide” under “Pre-class Prep.”</a></li>
+</ul></li>
+<li><p><a href="https://quarto.org/docs/websites/website-about.html#templates">Built-in templates</a></p></li>
+<li><p><a href="https://bootswatch.com/">Bootswatch themes</a></p></li>
+<li><p><a href="https://icons.getbootstrap.com/">Bootstrap icons</a></p></li>
+<li><p><a href="https://quarto.org/docs/websites/">Quarto Website general documentation</a></p></li>
+<li><p><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">Customizing Quarto Websites</a> (slides by Sam Csik)</p></li>
+<li><p><a href="https://ccd.rice.edu/sites/g/files/bxs3401/files/inline-files/FreshmanResumeGuide.pdf">Resume Guide</a> (Rice University)</p></li>
+<li><p><a href="https://github.com/jmgirard/embedpdf">embedpdf</a></p></li>
+<li><p>Check out what your classmates are doing and <del>steal</del> look at their code!</p></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -772,6 +764,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>(NOT) Copyrighted by the Flying Spaghetti Monster in Space</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Powered by the numerous unpaid, overworked hamsters on their running wheels</p>
+</div>
+  </div>
+</footer>
 
 
 
