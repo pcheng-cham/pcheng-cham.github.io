@@ -1,9 +1,10 @@
 ---
 title: "Resume"
 resources:
-  - media/CURRENT_9-21-26_resume_finalized2.pdf
+  - media/updated_resume.pdf
+toc: false #turns off table of contents to false
 ---
 
-This is the resume.
+This is my resume.
 
-{{< pdf media/CURRENT_9-21-26_resume_finalized2.pdf width="100%" height=800px >}}
+{{< pdf media/updated_resume.pdf width="100%" height=800px >}}

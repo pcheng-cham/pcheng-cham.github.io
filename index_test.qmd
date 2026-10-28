@@ -1,0 +1,64 @@
+---
+# yaml
+title: "P Cheng"
+image: media/myedit4_1_flip.png
+# myedit4_1_flip.png
+# myedit2_1.png
+toc: false
+#turns off table of content to false
+about:
+  template: trestles
+  # image-shape: rounded
+  image-width: 10-px;
+  
+  links:
+    - icon: github
+      href: http://github.com/pcheng-cham
+      target: blank  # opens in new window
+    - text: Email patrick.cheng@student.chaminade.edu
+      icon: envelope
+      href: mailto:patrick.cheng@student.chaminade.edu
+
+draft: true # disables page; excludes from site listings and search index
+# search: false # allows for "hidden" page within site search bar; accessible via direct URL
+---
+
+This website is a website exercise for an assignment from the CS201 class.
+
+To learn more about this assignment, visit <https://abcamp.github.io/assignment.html>.
+
+ATTEMPT 1: REFER TO \<a href="<https://abcamp.github.io/assignment.html>" class="no-hover-underline"\>ansmjadagmg\</a\> FOR ASSIGNMENT 7 REQUIREMENTS.
+
+ATTEMPT 2: REFER TO \[ansmjadagmg\](https://abcamp.github.io/assignment.html){.no-hover-underline} FOR ASSIGNMENT 7 REQUIREMENTS.
+
+ATTEMPT 3: <a href="https://example.com" id="unique-hover-linkabc">plsplsplsplsplsplswork</a>
+
+# "\# " will create [header 1](wikipedia.org)
+
+## "\## " will create header 2
+
+### "\### " will create header 3
+
+" " will create paragraph text.
+
+Unordered list
+
+- bullets
+
+- are
+
+- unordered
+
+- lists
+
+Ordered list
+
+1.  numbered
+
+2.  is
+
+3.  an
+
+4.  ordered
+
+5.  list

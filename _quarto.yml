@@ -1,30 +1,39 @@
+# sets up structure for site
 project:
   type: website
   output-dir: docs
 
 website:
-  # title: "P Cheng"
+  # title: "P Cheng's Github.io" # title for entire site
   navbar:
+    background: info
     right:
       - href: index.qmd
         text: Home
+        
       - about.qmd
+      
       - resume.qmd
+      
       - icon: github
-        href: http://github.com/
-        target: blank
-      - href: http://google.com/
-        text: link to google
-
+        href: http://github.com/pcheng-cham
+        target: blank  # opens in new window
+      # - href: http://google.com/
+      #   text: link to google
+      #   target: blank  # opens in new window
+  page-footer:
+    background: info
+    left: (NOT) Copyrighted by the Flying Spaghetti Monster in Space
+    right: Powered by the numerous unpaid, overworked hamsters on their running wheels
 format:
   html:
     theme:
     # https://bootswatch.com/
-      light: lux
-              #sandstone
       dark: slate
       #- cosmo
       #- brand
+      light: lux
+              #sandstone
     css: styles.css
     toc: true
 

@@ -1,29 +1,9 @@
 /* css styles */
-h1, p {
-  color: orange;
-}
+/*-----------------------------*/
 
-h2 {
-  color: green;
-}
-
-h3 {
-  color: black;
-  font-style: italic;
-}
-
-body {
-  background-color: antiquewhite;
-}
-
-
-/*changes ordered and undordered lists test*/
-
-ol, ul {
-  color: blue;
-  font-style: italic;
-}
-
-a {
-  color: yellow;
+/*remove underline of a link upon hover for specific links assigned with a specific class.
+avoids changing every single link on website,
+assign a class name ("no-hover-underline") to HTML anchor tag*/
+#unique-hover-linkabc:hover {
+  text-decoration: none;
 }

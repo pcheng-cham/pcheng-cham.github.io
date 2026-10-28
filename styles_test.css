@@ -1,0 +1,60 @@
+/* css styles */
+/*-----------------------------*/
+
+/*text formatting*/
+/*-----------------------------*/
+/*
+h1, p {
+  color: orange;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: black;
+  font-style: italic;
+}
+
+body {
+  background-color: antiquewhite;
+}
+*/
+
+
+/*changes ordered and undordered lists test*/
+/*-----------------------------*/
+/*ol, ul {
+  color: blue;
+  font-style: italic;
+}*/
+
+
+/*hyperlink formatting*/
+/*-----------------------------*/
+/*a {
+  color: purple;
+}
+a:hover {
+  text-decoration: none;
+}
+*/
+
+/*trying to use a class for hover link;
+remove underline of a link upon hover for specific links.
+avoids changing every single link on website,
+assign a class name ("no-hover-underline") to HTML anchor tag*/
+/* ATTEMPT 1
+.no-hover-underline:hover {
+  text-decoration: none;
+}*/
+/*ATTEMPT 2
+a.no-hover-underline:hover {
+  text-decoration: none !important;
+}
+*/
+/*ATTEMPT 3*/
+#unique-hover-linkabc:hover {
+  text-decoration: none;
+}

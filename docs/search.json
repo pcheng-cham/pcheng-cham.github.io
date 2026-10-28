@@ -4,21 +4,21 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "This is the resume.\nDownload PDF file."
+    "text": "This is my resume.\nDownload PDF file."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "To learn more about this assignment, visit ABCamp’s Github.\n\n\n\nThe website must be live and functional (the site loads at the URL, navigation works, and nothing is broken)\nThere must be an index page (“YOU” are here)\nThere must be three pages minimum (including index). What the other two pages (my ‘About’ page and my ‘Resume’ page) include is up to you. All pages must be properly linked in the site navigation AND include SOME relevant content (i.e., no empty pages)\nThere must be at least one media item somewhere (picture, video, embedded pdf, etc.)\nThere must be at least one customization somewhere (theme/template, colors, TOC, etc.)\nEverything should be neat, free of typos, and reflect thought and planning (e.g., no leftover template or placeholder text, page titles match the navigation, etc.)\n\n\n\n\n\nCreating your personal website using Quarto (tutorial by Sam Csik)\n\nfor personal branding guidance, look at this specific UCSB course material: “Create your own personal branding guide” under “Pre-class Prep.”\n\nBuilt-in templates\nBootswatch themes\nBootstrap icons\nQuarto Website general documentation\nCustomizing Quarto Websites (slides by Sam Csik)\nResume Guide (Rice University)\nembedpdf\nCheck out what your classmates are doing and steal look at their code!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "P Cheng",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n# library(usethis)\n\"1 + 1 = 3\"\n\n[1] \"1 + 1 = 3\""
+    "text": "I am a student of the CS-201 class. My current declared field of interest is computer science and data science.\n\n\nI currently enjoy classical, rock, and jazzy music.\nHere are some examples:"
   },
   {
     "objectID": "index.html#will-create-header-2",
@@ -26,5 +26,75 @@
     "title": "P Cheng",
     "section": "“##” will create header 2",
     "text": "“##” will create header 2\n\n“###” will create header 3\n” ” will create paragraph text.\nUnordered list\n\nbullets\nare\nunordered\nlists\n\nOrdered list\n\nnumbered\nis\nan\nordered\nlist"
+  },
+  {
+    "objectID": "4fun.html",
+    "href": "4fun.html",
+    "title": "P Cheng",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nprint(\"REFER TO https://abcamp.github.io/assignment.html FOR ASSIGNMENT 7 REQUIREMENTS.\")\n\n[1] \"REFER TO https://abcamp.github.io/assignment.html FOR ASSIGNMENT 7 REQUIREMENTS.\"\n\"1 + 1 = 3\"\n\n[1] \"1 + 1 = 3\""
+  },
+  {
+    "objectID": "4fun.html#will-create-header-2",
+    "href": "4fun.html#will-create-header-2",
+    "title": "P Cheng",
+    "section": "“##” will create header 2",
+    "text": "“##” will create header 2\n\n“###” will create header 3\n” ” will create paragraph text.\nUnordered list\n\nbullets\nare\nunordered\nlists\n\nOrdered list\n\nnumbered\nis\nan\nordered\nlist"
+  },
+  {
+    "objectID": "index_4fun.html",
+    "href": "index_4fun.html",
+    "title": "P Cheng",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nprint(\"REFER TO https://abcamp.github.io/assignment.html FOR ASSIGNMENT 7 REQUIREMENTS.\")\n\n[1] \"REFER TO https://abcamp.github.io/assignment.html FOR ASSIGNMENT 7 REQUIREMENTS.\"\n\"1 + 1 = 3\"\n\n[1] \"1 + 1 = 3\""
+  },
+  {
+    "objectID": "index_4fun.html#will-create-header-2",
+    "href": "index_4fun.html#will-create-header-2",
+    "title": "P Cheng",
+    "section": "“##” will create header 2",
+    "text": "“##” will create header 2\n\n“###” will create header 3\n” ” will create paragraph text.\nUnordered list\n\nbullets\nare\nunordered\nlists\n\nOrdered list\n\nnumbered\nis\nan\nordered\nlist"
+  },
+  {
+    "objectID": "index.html#to-learn-more-about-this-assignment-visit-httpsabcamp.github.ioassignment.html.",
+    "href": "index.html#to-learn-more-about-this-assignment-visit-httpsabcamp.github.ioassignment.html.",
+    "title": "P Cheng",
+    "section": "",
+    "text": "ATTEMPT 1: REFER TO &lt;a href=“https://abcamp.github.io/assignment.html” class=“no-hover-underline”&gt;ansmjadagmg&lt;/a&gt; FOR ASSIGNMENT 7 REQUIREMENTS.\nATTEMPT 2: REFER TO [ansmjadagmg](https://abcamp.github.io/assignment.html){.no-hover-underline} FOR ASSIGNMENT 7 REQUIREMENTS.\nATTEMPT 3: https://abcamp.github.io/assignment.html"
+  },
+  {
+    "objectID": "index.html#this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class.",
+    "href": "index.html#this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class.",
+    "title": "P Cheng",
+    "section": "",
+    "text": "To learn more about this assignment, visit ABCamp’s Github.\n\n\n\n\nThe website must be live and functional (the site loads at the URL, navigation works, and nothing is broken)\nThere must be an index page (“YOU” are here)\nThere must be three pages minimum (including index). What the other two pages (my ‘About’ page and my ‘Resume’ page) include is up to you. All pages must be properly linked in the site navigation AND include SOME relevant content (i.e., no empty pages)\nThere must be at least one media item somewhere (picture, video, embedded pdf, etc.)\nThere must be at least one customization somewhere (theme/template, colors, TOC, etc.)\nEverything should be neat, free of typos, and reflect thought and planning (e.g., no leftover template or placeholder text, page titles match the navigation, etc.)"
+  },
+  {
+    "objectID": "index_test.html",
+    "href": "index_test.html",
+    "title": "P Cheng",
+    "section": "",
+    "text": "This website is a website exercise for an assignment from the CS201 class.\nTo learn more about this assignment, visit https://abcamp.github.io/assignment.html.\nATTEMPT 1: REFER TO &lt;a href=“https://abcamp.github.io/assignment.html” class=“no-hover-underline”&gt;ansmjadagmg&lt;/a&gt; FOR ASSIGNMENT 7 REQUIREMENTS.\nATTEMPT 2: REFER TO [ansmjadagmg](https://abcamp.github.io/assignment.html){.no-hover-underline} FOR ASSIGNMENT 7 REQUIREMENTS.\nATTEMPT 3: plsplsplsplsplsplswork"
+  },
+  {
+    "objectID": "index_test.html#will-create-header-2",
+    "href": "index_test.html#will-create-header-2",
+    "title": "P Cheng",
+    "section": "“##” will create header 2",
+    "text": "“##” will create header 2\n\n“###” will create header 3\n” ” will create paragraph text.\nUnordered list\n\nbullets\nare\nunordered\nlists\n\nOrdered list\n\nnumbered\nis\nan\nordered\nlist"
+  },
+  {
+    "objectID": "about.html#this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class.",
+    "href": "about.html#this-website-is-a-website-exercise-for-an-assignment-from-the-cs201-class.",
+    "title": "About",
+    "section": "",
+    "text": "To learn more about this assignment, visit ABCamp’s Github.\n\n\n\nThe website must be live and functional (the site loads at the URL, navigation works, and nothing is broken)\nThere must be an index page (“YOU” are here)\nThere must be three pages minimum (including index). What the other two pages (my ‘About’ page and my ‘Resume’ page) include is up to you. All pages must be properly linked in the site navigation AND include SOME relevant content (i.e., no empty pages)\nThere must be at least one media item somewhere (picture, video, embedded pdf, etc.)\nThere must be at least one customization somewhere (theme/template, colors, TOC, etc.)\nEverything should be neat, free of typos, and reflect thought and planning (e.g., no leftover template or placeholder text, page titles match the navigation, etc.)\n\n\n\n\n\nCreating your personal website using Quarto (tutorial by Sam Csik)\n\nfor personal branding guidance, look at this specific UCSB course material: “Create your own personal branding guide” under “Pre-class Prep.”\n\nBuilt-in templates\nBootswatch themes\nBootstrap icons\nQuarto Website general documentation\nCustomizing Quarto Websites (slides by Sam Csik)\nResume Guide (Rice University)\nembedpdf\nCheck out what your classmates are doing and steal look at their code!"
+  },
+  {
+    "objectID": "index.html#p-chengs-website-for-an-assignment-of-the-cs-201-class",
+    "href": "index.html#p-chengs-website-for-an-assignment-of-the-cs-201-class",
+    "title": "P Cheng",
+    "section": "",
+    "text": "I am a student of the CS-201 class. My current declared field of interest is computer science and data science.\n\n\nI currently enjoy classical, rock, and jazzy music.\nHere are some examples:"
   }
 ]
