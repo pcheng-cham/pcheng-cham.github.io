@@ -23,6 +23,7 @@ website:
       #   target: blank  # opens in new window
       - href: http://name.github.io/dashboards
         text: Dashboard Repository
+        
   page-footer:
     background: info
     left: (NOT) Copyrighted by the Flying Spaghetti Monster in Space
