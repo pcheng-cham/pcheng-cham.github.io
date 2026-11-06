@@ -21,12 +21,9 @@ website:
       # - href: http://google.com/
       #   text: link to google
       #   target: blank  # opens in new window
-<<<<<<< HEAD
       - href: http://name.github.io/dashboards
         text: Dashboard Repository
         
-=======
->>>>>>> 3eca7872aaeecf414827c1d5b9b9032e654d0095
   page-footer:
     background: info
     left: (NOT) Copyrighted by the Flying Spaghetti Monster in Space
@@ -44,4 +41,3 @@ format:
     toc: true
 
 editor: visual
-
