@@ -18,11 +18,18 @@ website:
       - icon: github
         href: http://github.com/pcheng-cham
         target: blank  # opens in new window
+        
       # - href: http://google.com/
       #   text: link to google
       #   target: blank  # opens in new window
-      - href: http://name.github.io/dashboards
-        text: Dashboard Repository
+      # 
+      # - href: http://name.github.io/dashboards
+      #   text: Dashboard Repository
+        
+      - icon: basket
+        href: https://pcheng-cham.github.io/CS201-dashboards/candy.html
+        target: blank  # opens in new window
+        text: Candy Dashboard
         
   page-footer:
     background: info
